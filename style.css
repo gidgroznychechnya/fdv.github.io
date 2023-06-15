@@ -1,0 +1,315 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+   
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #ffffff;
+    background-color: #222;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+header .container {
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 180px;
+    background-image: url("../img1/groznyikonlaaa.png");
+    background-repeat: no-repeat;
+    background-position: 520px 130px;
+}
+
+.main-nav {
+    display: flex;
+    margin-bottom: 95px;
+}
+
+
+.logo {
+   width:60px;
+    height: 60px;
+    margin-right: 60px;
+}
+
+.site-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 660px;
+    margin-top: 25px;
+}
+
+.site-menu a {
+    margin-right: 40px;
+    display: block;
+    text-decoration: none;
+    color: #d4d4d4;
+    
+}
+
+.site-menu a:hover {
+    color: #fff;
+    
+}
+
+.contacts-menu {
+    list-style: none;
+    display: flex;
+    max-width: 180px;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    margin-left:auto;
+    margin-right:80px;
+  
+}
+.contacts-menu img:hover {
+    opacity: 0.8;
+}
+
+.contacts-menu img {
+    margin-left: 20px;
+}
+
+.about-us {
+ width: 300px;
+   padding-left: 120px;
+}
+
+.about-us h1 {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.about-us p {
+    margin: 0;
+    margin-bottom: 50px;
+    color: #d4d4d4;
+    font-size: 14px;
+    
+}
+
+.about-us a {
+    width: 195px;
+    text-transform: uppercase;
+    background-color: #feca30;
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px
+} 
+
+.about-us a:hover {
+    background-color: #ffffff;
+}
+
+.features {
+    padding: 85px 0;
+    background-color: #131313;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.features-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px
+        text-decoration: none;
+        
+}
+
+.features-list li {
+    width: 180px;
+    text-decoration: none;
+   
+}
+
+.features-img {
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 60px;
+}
+.moon-vac .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moon-vac {
+    padding: 80px; 0;
+}
+
+.moon-vac .left-column {
+    width: 440px;
+}
+
+.moon-vac .right-column {
+    width: 440px;
+}
+
+.moon-vac .lead {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    ;
+}
+
+.reccomendations .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.reccomendations {
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+.reccomendations {
+    padding: 0;
+    padding-bottom: 15px; 
+}
+
+.left-column, .right-column {
+    width: 440px;
+}
+
+.reccomendations h3 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    margin-top: 0;
+    ;
+}
+
+.reccomendations {
+    margin-bottom: 20px;
+}
+
+.reccomendations-list li {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    background-color: #131313
+        
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-column {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .right-column {
+width: 720px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    margin-right: 20px;
+}
+
+.copyrights {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu> li {
+    width: 180px;
+   
+}
+
+.footer-submenu-title {
+    color: #ffffff;
+        font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #555555;
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.footer-submenu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-submenu>li {
+    margin-bottom: 20px;
+}
+
+.footer-submenu a {
+    text-decoration: none;
+    color: #888888;
+}
+
+
+.site-menu a {
+    font-size: 14px;
+}
+
+.features-food .block1 {
+    padding-top: 37px;
+}
+
+.features-pilots .block3 {
+    padding-top: 37px;
+}
+
+ .reccomendations .container li::before{
+    content: '';
+    background-color: orange;
+    width: 7px;
+    height: 7px; 
+    border-radius: 50%;
+     display: inline-block;
+     margin-right: 15px;
+}
+
+.reccomendations .container li {
+    list-style: none;
+}
